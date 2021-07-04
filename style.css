@@ -34,6 +34,7 @@ section{
     text-decoration: none;
     background-color: orange;
     padding: 10px 20px;
+    font-weight: 700;
     border-radius: 5px;
     color: white;
 }
