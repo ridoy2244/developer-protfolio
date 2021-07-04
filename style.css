@@ -10,6 +10,9 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 p{
     text-align: justify;
 }
@@ -42,6 +45,11 @@ p{
     background-repeat: no-repeat;
     background-position: right;
 }
+.exparince-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
 .exparince-item{
     width: 40%;
     margin-left: 5%;
@@ -49,7 +57,20 @@ p{
     padding-left: 20px;
     box-shadow: 10px 10px 40px gray;
     border-radius: 10px;
+    
 }
-footer{
+#full-stack-web-developer{
+    border-left: 10px solid;
+    border-image: linear-gradient(purple,tomato);
+    border-image-slice: 1;
+}
+#web-dev-exparince{
+    border-left: 10px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+
+footer p{
     text-align: center;
+    margin-top: 40px;
 }
